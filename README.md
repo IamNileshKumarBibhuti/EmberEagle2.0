@@ -86,10 +86,11 @@ void put_off_fire() {
   myservo.write(90);
   fire = false;
 }
-<p Now, sit back, relax, and let the Fire Fighting Robot save the world from fiery disasters! Please exercise caution while enjoying the show and keep a safe distance from both the flames and the robot.
+```
+Now, sit back, relax, and let the Fire Fighting Robot save the world from fiery disasters! Please exercise caution while enjoying the show and keep a safe distance from both the flames and the robot.
 
 Disclaimer: This code is purely for educational and entertainment purposes. The robot's fire-fighting capabilities are not intended for real-life emergencies, so please rely on professional fire-fighting services for actual fires.
 
 So, are you ready to bring this heroic robot to life? Clone the repository, upload the code, and let the fire-fighting adventure begin!
-</p>
+
 🔥🤖💪
