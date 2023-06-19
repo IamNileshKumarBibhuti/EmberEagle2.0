@@ -87,6 +87,7 @@ void put_off_fire() {
 }
 <!-- New line break -->
 <!-- New line break -->
+<br />
 Now, sit back, relax, and let the Fire Fighting Robot save the world from fiery disasters! Please exercise caution while enjoying the show and keep a safe distance from both the flames and the robot.
 
 Disclaimer: This code is purely for educational and entertainment purposes. The robot's fire-fighting capabilities are not intended for real-life emergencies, so please rely on professional fire-fighting services for actual fires.
