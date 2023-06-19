@@ -85,5 +85,3 @@ void put_off_fire() {
   myservo.write(90);
   fire = false;
 }
-
-
