@@ -48,6 +48,7 @@ else if (digitalRead(Forward_S) == 0) {
 }
 
 
+
 Once the robot's fire-fighting instincts are activated, it won't stop until the fire is extinguished. 
 It tirelessly repeats the put_off_fire() function until peace is restored:
 
@@ -85,20 +86,10 @@ void put_off_fire() {
   myservo.write(90);
   fire = false;
 }
-</br>
-
-## Getting Started
-
-Once you have all the necessary hardware components assembled, you're just a few steps away from witnessing the robot in action! To upload the Arduino code and bring this hero to life, follow these simple instructions:
-
-1. Connect your Arduino board to your computer. Make sure it's wearing its cape!
-2. Open the Arduino IDE and summon your programming powers.
-3. Copy and paste the complete program provided at the end of this page into the Arduino IDE. The robot loves reading its code!
-4. Verify and upload the code to your Arduino board. Watch as the robot springs into action to save the day!
-Now, sit back, relax, and let the Fire Fighting Robot save the world from fiery disasters! Please exercise caution while enjoying the show and keep a safe distance from both the flames and the robot.
+<p Now, sit back, relax, and let the Fire Fighting Robot save the world from fiery disasters! Please exercise caution while enjoying the show and keep a safe distance from both the flames and the robot.
 
 Disclaimer: This code is purely for educational and entertainment purposes. The robot's fire-fighting capabilities are not intended for real-life emergencies, so please rely on professional fire-fighting services for actual fires.
 
 So, are you ready to bring this heroic robot to life? Clone the repository, upload the code, and let the fire-fighting adventure begin!
-
+</p>
 🔥🤖💪
