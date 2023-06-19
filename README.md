@@ -3,8 +3,8 @@ Fire Fighting Robot
 <h1 align="center">Fire Fighting Robot Arduino Code</h1>
 
 <p align="center">
-![EmberEagle](https://github.com/IamNileshKumarBibhuti/EmberEagle2.0/assets/76257165/9f229da9-b1c1-4314-98b6-136fe746a35e)
 </p>
+![EmberEagle](https://github.com/IamNileshKumarBibhuti/EmberEagle2.0/assets/76257165/9f229da9-b1c1-4314-98b6-136fe746a35e)
 
 <p align="center">Welcome to the Fire Fighting Robot Arduino Code repository! This code will unleash the power of a robot that detects and extinguishes fires. Get ready for some fiery action!</p>
 
