@@ -30,6 +30,60 @@ if (digitalRead(Left_S) == 1 && digitalRead(Right_S) == 1 && digitalRead(Forward
   digitalWrite(LM2, HIGH);
   digitalWrite(RM1, HIGH);
   digitalWrite(RM2, HIGH);
-}```
+}
 
-On the other hand, if a fire is detected straight ahead, the robot should move towards the fire. We achieve this by rotating the respective motors. We also set a variable named fire to true to indicate that the robot is in action:
+
+
+On the other hand, if a fire is detected straight ahead, the robot should move towards the fire. 
+We achieve this by rotating the respective motors. We also set a variable named fire to true to 
+indicate that the robot is in action:
+
+else if (digitalRead(Forward_S) == 0) {
+  // Fire detected straight ahead, the robot boldly advances
+  digitalWrite(LM1, HIGH);
+  digitalWrite(LM2, LOW);
+  digitalWrite(RM1, HIGH);
+  digitalWrite(RM2, LOW);
+  fire = true;
+}
+
+
+Once the robot's fire-fighting instincts are activated, it won't stop until the fire is extinguished. 
+It tirelessly repeats the put_off_fire() function until peace is restored:
+
+while (fire == true) {
+  put_off_fire();
+}
+
+
+
+Inside the put_off_fire() function, the robot demonstrates its water-bending skills. 
+It stops, activates the water pump, and gracefully wields its servo motor to disperse water evenly. 
+It's like watching a choreographed dance!
+
+void put_off_fire() {
+  delay(500);
+  digitalWrite(LM1, HIGH);
+  digitalWrite(LM2, HIGH);
+  digitalWrite(RM1, HIGH);
+  digitalWrite(RM2, HIGH);
+
+  digitalWrite(pump, HIGH);
+  delay(500);
+
+  for (pos = 50; pos <= 130; pos += 1) {
+    myservo.write(pos);
+    delay(10);
+  }
+
+  for (pos = 130; pos >= 50; pos -= 1) {
+    myservo.write(pos);
+    delay(10);
+  }
+
+  digitalWrite(pump, LOW);
+  myservo.write(90);
+  fire = false;
+}
+
+
