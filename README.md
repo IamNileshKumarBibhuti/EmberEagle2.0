@@ -3,7 +3,7 @@ Fire Fighting Robot
 <h1 align="center">Fire Fighting Robot Arduino Code</h1>
 
 <p align="center">
-  <img src="robot_image.jpg" alt="Fire Fighting Robot" width="400" height="300">
+  <img src="EmberEagle.jpg" alt="Fire Fighting Robot" width="400" height="300">
 </p>
 
 <p align="center">Welcome to the Fire Fighting Robot Arduino Code repository! This code will unleash the power of a robot that detects and extinguishes fires. Get ready for some fiery action!</p>
