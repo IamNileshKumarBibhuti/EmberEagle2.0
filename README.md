@@ -30,6 +30,6 @@ if (digitalRead(Left_S) == 1 && digitalRead(Right_S) == 1 && digitalRead(Forward
   digitalWrite(LM2, HIGH);
   digitalWrite(RM1, HIGH);
   digitalWrite(RM2, HIGH);
-}
+}```
 
 On the other hand, if a fire is detected straight ahead, the robot should move towards the fire. We achieve this by rotating the respective motors. We also set a variable named fire to true to indicate that the robot is in action:
